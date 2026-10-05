@@ -2,7 +2,7 @@ import { enqueueWrite, initSyncQueue, getPendingCount, subscribePendingWrites, g
 
 // ─── API ───────────────────────────────────────────────────────────────────────
 export const API_BASE =
-  "https://script.google.com/macros/s/AKfycbzFLEviqUlXGbKewdPX2orWW4nXE658lMEE8P6VK_gqZt2oQWiyUGbcBtItuVwDsJ3J/exec";
+  "https://script.google.com/macros/s/AKfycbyUh_2SLan2FXCuBeh4HOf3JN3s4rkhHWmF9v3VZ3bfMCyH1xzE-TAy9OK_hA0WPA_e/exec";
 
 export { getPendingCount, subscribePendingWrites, getPendingWrites };
 
