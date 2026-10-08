@@ -77,7 +77,7 @@ export default function LoginPage({ onLogin }: { onLogin: () => void }) {
                   value={username}
                   onChange={e => { setUsername(e.target.value); setError(""); }}
                   className="erp-input pr-9"
-                  placeholder="أدخل اسم المستخدم"
+                  placeholder="admin"
                   required
                 />
               </div>
@@ -96,7 +96,7 @@ export default function LoginPage({ onLogin }: { onLogin: () => void }) {
                   value={password}
                   onChange={e => { setPassword(e.target.value); setError(""); }}
                   className="erp-input pr-9 pl-9"
-                  placeholder="أدخل كلمة المرور"
+                  placeholder="erp2025"
                   required
                 />
                 <button
